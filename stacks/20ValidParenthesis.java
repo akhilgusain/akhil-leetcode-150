@@ -5,7 +5,9 @@ import java.util.Stack;
 class Solution {
     public boolean isValid(String s) {
         Stack<Character> stack = new Stack<>();
-        // input : "()[]{}"
+        // input : "()[]{}" output : true
+        // input : "([)]" output : false
+        
         for(char ch : s.toCharArray()){
             if(ch == '('){
                 stack.push(')');

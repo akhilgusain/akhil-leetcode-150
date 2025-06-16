@@ -1,5 +1,9 @@
 package slidingwindow;
 
+//Input: s1 = "ab", s2 = "eidbaooo"
+// Output: true
+// Explanation: s2 contains one permutation of s1 ("ba").
+
 class Solution {
     public boolean checkInclusion(String s1, String s2) {
         // s1 should not be greater than s2
