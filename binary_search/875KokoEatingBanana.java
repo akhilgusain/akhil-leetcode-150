@@ -1,6 +1,7 @@
 package binary_search;
 class Solution {
     public int minEatingSpeed(int[] piles, int h) {
+        // piles : [3,6,7,11] and h = 8
         // the number of k if increased then h will decrease and vice versa.
         // we can list all values of h and k then can use binary search to find min value of k for required h
         //       left                    right
