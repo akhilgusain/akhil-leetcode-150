@@ -22,7 +22,7 @@ class Solution {
         }while(slow != fast);
 
         fast = 0;
-        // reset the slow pointer
+        // reset the slow pointer or fast pointer, either will work
         while(slow != fast){
             slow = nums[slow];
             fast = nums[fast];
