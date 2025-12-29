@@ -1,4 +1,4 @@
-package twopointers;
+package TwoPointers;
 
 class Solution {
     public int trap(int[] height) {

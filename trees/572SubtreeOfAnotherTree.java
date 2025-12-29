@@ -1,4 +1,4 @@
-package trees;
+package Trees;
 
 /**
  * Definition for a binary tree node.
