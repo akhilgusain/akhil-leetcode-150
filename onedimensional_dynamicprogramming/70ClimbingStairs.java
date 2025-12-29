@@ -1,4 +1,4 @@
-package onedimensionaldynamicprogramming;
+package onedimensional_dynamicprogramming;
 
 class Solution {
     public int climbStairs(int n) {
