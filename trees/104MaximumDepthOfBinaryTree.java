@@ -1,4 +1,4 @@
-package Trees;
+package trees;
 
 
 //       1          (depth 1)

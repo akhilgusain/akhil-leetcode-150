@@ -1,4 +1,4 @@
-package SlidingWindow;
+package slidingwindow;
 
 //Input: s1 = "ab", s2 = "eidbaooo"
 // Output: true

@@ -1,4 +1,4 @@
-package ArraysAndHashing;
+package arraysandhashing;
 import java.util.HashSet;
 
 class Solution {

@@ -1,4 +1,4 @@
-package SlidingWindow;
+package slidingwindow;
 
 class Solution {
     public int characterReplacement(String s, int k) {
