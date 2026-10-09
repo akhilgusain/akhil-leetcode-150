@@ -25,7 +25,7 @@ class Solution {
         int right = height.length - 1;
         int total = 0;
         int leftMax = height[0], rightMax = height[right];
-        // whichever side has lower height we will work on that
+        // whichever side has lower height we will work on that. since left is smaller in the above example so we shift to right
         while(left < right){
             if(height[left] < height[right]){
                 leftMax = Math.max(leftMax, height[left]);
